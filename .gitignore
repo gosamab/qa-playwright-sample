@@ -9,3 +9,4 @@ run-matrix.log
 .matrix_end
 report/sample-bug-report.html
 report/.pdf-cache/
+*-v1.pdf
