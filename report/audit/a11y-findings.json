@@ -1,0 +1,108 @@
+{
+  "/": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": 3,
+      "sample": ".float-start"
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "help": "Images must have alternative text",
+      "nodes": 11,
+      "sample": ".navbar-brand > img[src$=\"broken.png\"]"
+    },
+    {
+      "id": "label",
+      "impact": "critical",
+      "help": "Form elements must have labels",
+      "nodes": 1,
+      "sample": ".form-control"
+    },
+    {
+      "id": "list",
+      "impact": "serious",
+      "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+      "nodes": 2,
+      "sample": ".checkbox:nth-child(13) > ul"
+    },
+    {
+      "id": "select-name",
+      "impact": "critical",
+      "help": "Select element must have an accessible name",
+      "nodes": 1,
+      "sample": "select"
+    }
+  ],
+  "/category/hand-tools": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": 2,
+      "sample": "p > a[target=\"_blank\"]:nth-child(1)"
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "help": "Images must have alternative text",
+      "nodes": 10,
+      "sample": "img[src$=\"broken.png\"]"
+    },
+    {
+      "id": "list",
+      "impact": "serious",
+      "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+      "nodes": 1,
+      "sample": ".checkbox:nth-child(7) > ul"
+    },
+    {
+      "id": "select-name",
+      "impact": "critical",
+      "help": "Select element must have an accessible name",
+      "nodes": 1,
+      "sample": "select"
+    }
+  ],
+  "/contact": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": 2,
+      "sample": "p > a[target=\"_blank\"]:nth-child(1)"
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "help": "Images must have alternative text",
+      "nodes": 1,
+      "sample": "img"
+    }
+  ],
+  "/auth/login": [
+    {
+      "id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "nodes": 1,
+      "sample": ".btn"
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": 2,
+      "sample": "p > a[target=\"_blank\"]:nth-child(1)"
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "help": "Images must have alternative text",
+      "nodes": 1,
+      "sample": "img"
+    }
+  ]
+}

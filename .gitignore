@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+scratch/
+run-matrix.log
+.start
+.matrix_start
+.matrix_end
+report/sample-bug-report.html
+report/.pdf-cache/

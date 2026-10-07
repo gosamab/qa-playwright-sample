@@ -1,0 +1,25 @@
+{
+  "/": [
+    "missing meta description",
+    "missing canonical",
+    "0 <h1> elements (expected 1)"
+  ],
+  "/category/hand-tools": [
+    "missing meta description",
+    "missing canonical",
+    "0 <h1> elements (expected 1)"
+  ],
+  "/contact": [
+    "missing meta description",
+    "missing canonical",
+    "0 <h1> elements (expected 1)"
+  ],
+  "/auth/login": [
+    "missing meta description",
+    "missing canonical",
+    "0 <h1> elements (expected 1)"
+  ],
+  "(all pages)": [
+    "page titles are not unique: \"Practice Software Testing - Toolshop - v5.0 with bugs\""
+  ]
+}

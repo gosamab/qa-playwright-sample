@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sample QA pass with Playwright on the public Toolshop practice site (with-bugs edition). Not client work.",
+  "scripts": {
+    "test": "playwright test",
+    "test:desktop": "playwright test --project=desktop-chrome --project=desktop-safari --project=desktop-firefox",
+    "report": "playwright show-report",
+    "evidence": "node scripts/capture-evidence.mjs && node scripts/capture-evidence-engines.mjs && node scripts/capture-evidence-cross-browser.mjs",
+    "pdf": "node scripts/render-pdf.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "marked": "^18.1.0",
+    "typescript": "^7.0.2"
+  }
+}
